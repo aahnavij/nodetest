@@ -1,0 +1,40 @@
+    <html>
+    <body>
+    
+    <h2>HTML Forms</h2>
+    
+    <form action="http://localhost:8003/form" method="POST">
+      <label for="fname">name:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="phone">Phone</label><br>
+      <input type="text" id="phone" name="lname" ><br><br>
+      <label for="address">Address</label><br>
+      <input type="text" id="address" name="add"><br><br>
+      
+      <select name="agent_id">  
+        <option value = "maths" > Maths   
+        </option>  
+        <option value = "english" > English   
+        </option>  
+        <option value = "electronics" > Electronics  
+        </option>  
+        <option value = "physics"> Physics  
+        </option>  
+        </select>  
+        <select name="dept">  
+            <option value = "cse" > CSE   
+            </option>  
+            <option value = "civil" > Civil   
+            </option>  
+            <option value = "mechanical" > Mechanical  
+            </option>  
+            </select>  
+        <input type="submit" value="Submit">
+    </form> 
+    <a href="/display">click here to get details</a>
+    
+    <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+    
+    </body>
+    </html>
+  
