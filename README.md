@@ -12,10 +12,10 @@ Express
 </ul>
 
 <b>Prerequisites</b>
-
-$ npm install express
-$ npm install mysql
-$ npm install ejs
+<ul><li>
+  $ npm install express</li>
+  <li>$ npm install mysql</li>
+  <li>$ npm install ejs</li>
 
 Project
 
